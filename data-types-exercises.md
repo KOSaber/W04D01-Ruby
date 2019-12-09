@@ -10,28 +10,28 @@
 2 ** 3
 ```
 ```text
-Your answer.
+its like 2 power of 3 = 8
 ```
 
 ```rb
 ((16 / 4) * (2 + 1)) ** 2
 ```
 ```text
-Your answer.
+144
 ```
 
 ```rb
 ("a milli " + "a milli") * 3
 ```
 ```text
-Your answer.
+"a milli a millia milli a millia milli a milli"
 ```
 
 ```rb
 ("a milli " * 4) / 2
 ```
 ```text
-Your answer.
+error because of divison for string on 2
 ```
 
 ```rb
@@ -39,7 +39,7 @@ my_favorite_number = 13
 puts "My favorite number is: " + my_favorite_number
 ```
 ```text
-Your answer.
+error we should convert it to string before print it
 ```
 
 ```rb
@@ -47,7 +47,7 @@ my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
 ```
 ```text
-Your answer.
+My favorite number is: 13
 ```
 
 ### Truthiness and Falsiness
@@ -55,14 +55,14 @@ Your answer.
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
 
 ```text
-[ ] false
-[ ] 0
-[ ] ""
-[ ] null
+[x] false
+[x] 0
+[] ""
+[x] null
 [ ] [ ] (empty array)
 [ ] undefined
-[ ] NaN
-[ ] nil
+[] NaN
+[x] nil
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -79,7 +79,7 @@ end
 ```
 ```text
 Your answer.
-```
+```it will print "My name is: "
 
 ```rb
 no_name = nil
@@ -88,7 +88,7 @@ if no_name
 end
 ```
 ```text
-Your answer.
+it will not print anything because if statment is false
 ```
 
 ```rb
@@ -98,7 +98,7 @@ if age
 end
 ```
 ```text
-Your answer.
+error because printing nil value
 ```
 
 ```rb
@@ -108,7 +108,7 @@ if age
 end
 ```
 ```text
-Your answer.
+My age is: 44
 ```
 
 ### Conditionals
